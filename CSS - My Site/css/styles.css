@@ -9,12 +9,18 @@ body {
 }
 
 h1 {
-    margin-top: 0px;
+    /*font size in pixels will not change the size of use change the font size on the browser
+    because it is not dynamic. In order for us to be dynamic font size we need to use percentage
+    instead of pixels. 100% = 16 pixels so to get to 90pixels we need to 90px/16 = 562.5 percent
+    We can also use em instead of pixels to make the font size dynaminc 1em = 16 px* or 90px = 5.625em */
+    font-size: 5.625em;
+    margin-top: 50px;
     font-family: 'Sacramento', cursive;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
 }
 
 h3 {
@@ -25,8 +31,11 @@ h3 {
     background-color: #dff6f0;
     position: relative;
     padding-top: 100px;
-}
+ }
 
+.profile-picture {
+    border-radius: 50%;
+}
 .top-cloud {
     position: absolute;
     right: 300px;
@@ -40,7 +49,8 @@ h3 {
 }
 
 .middle-container {
-    
+
+    margin-top: 50px;
 }
 
 .bottom-container {
