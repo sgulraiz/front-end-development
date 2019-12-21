@@ -8,6 +8,7 @@ body {
     font-family: 'Merriweather', serif;
 }
 
+
 h1 {
     /*font size in pixels will not change the size of use change the font size on the browser
     because it is not dynamic. In order for us to be dynamic font size we need to use percentage
@@ -16,15 +17,19 @@ h1 {
     font-size: 5.625em;
     margin-top: 50px;
     font-family: 'Sacramento', cursive;
+    color: #66bfbf;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
+    color: #66bfbf;
+    font-weight: normal;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color: #11999E;
 }
 
 .top-container {
@@ -33,8 +38,9 @@ h3 {
     padding-top: 100px;
  }
 
-.profile-picture {
-    border-radius: 50%;
+ .avatar-picture {
+    border-radius: 200%; 
+    width: 15%;
 }
 .top-cloud {
     position: absolute;
@@ -56,3 +62,4 @@ h3 {
 .bottom-container {
 
 }
+
